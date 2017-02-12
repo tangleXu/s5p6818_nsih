@@ -93,8 +93,5 @@ reset2:
 	
 	b .
 	
-	.skip 204, 0x00	// skip the unused 204 bytes & filled with 0x00
-	.word 0x4849534e	// the 'NSIH' signature must be set at offset 0x1fc
-	
 
 
